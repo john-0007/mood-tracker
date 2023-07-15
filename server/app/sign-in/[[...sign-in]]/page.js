@@ -229,7 +229,7 @@ module.exports = require("worker_threads");
 
 /***/ }),
 
-/***/ 2082:
+/***/ 6532:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -321,7 +321,7 @@ function Page() {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [457,725,834,844], () => (__webpack_exec__(2082)));
+var __webpack_exports__ = __webpack_require__.X(0, [457,725,116,89], () => (__webpack_exec__(6532)));
 module.exports = __webpack_exports__;
 
 })();
