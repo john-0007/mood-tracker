@@ -1,16 +1,7 @@
-const isGithubActions = process.env.GITHUB_ACTIONS || false
-
-let assetPrefix = ''
-let basePath = '/'
-
-if (isGithubActions) {
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
-
-  assetPrefix = `/${repo}/`
-  basePath = `/${repo}`
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  basePath: '/mood-tracker', // Replace with your GitHub repository name
+  assetPrefix: '/mood-tracker/', // Replace with your GitHub repository name
 }
 
-module.exports = {
-  assetPrefix: '/mood-tracker',
-  basePath: '/mood-tracker',
-}
+module.exports = nextConfig
